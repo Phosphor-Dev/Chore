@@ -10,7 +10,7 @@ import math
 
                             ### Initialization ###
 ################################################################################
-cluster = MongoClient("mongodb+srv://steven:j7257197@cluster0.gjjwq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("")
 db = cluster.get_database('chorebot')
 client = commands.Bot(command_prefix = '-', case_Insenitive = True, intents = discord.Intents.all())
 client.add_cog(music(client))
@@ -467,4 +467,4 @@ async def debts(ctx, member:discord.Member=None):
 
 
 
-client.run('OTg3ODg2NTI4NjUzMDQ1Nzgy.GtydEU.euArhIijdSQkpJIy7cJFpHek5o76YnRpPSKp7g')
+client.run('')
